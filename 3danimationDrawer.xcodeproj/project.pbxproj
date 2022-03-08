@@ -14,6 +14,9 @@
 		BE7D8B7727D62D7E001AD04B /* _danimationDrawerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D8B7627D62D7E001AD04B /* _danimationDrawerTests.swift */; };
 		BE7D8B8127D62D7E001AD04B /* _danimationDrawerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D8B8027D62D7E001AD04B /* _danimationDrawerUITests.swift */; };
 		BE7D8B8327D62D7E001AD04B /* _danimationDrawerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D8B8227D62D7E001AD04B /* _danimationDrawerUITestsLaunchTests.swift */; };
+		BE7D8B9127D62D9C001AD04B /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D8B9027D62D9C001AD04B /* Main.swift */; };
+		BE7D8B9327D62DBD001AD04B /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D8B9227D62DBD001AD04B /* SideMenu.swift */; };
+		BEE535B727D63942008A2837 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE535B627D63942008A2837 /* CustomTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		BE7D8B7C27D62D7E001AD04B /* 3danimationDrawerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3danimationDrawerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7D8B8027D62D7E001AD04B /* _danimationDrawerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _danimationDrawerUITests.swift; sourceTree = "<group>"; };
 		BE7D8B8227D62D7E001AD04B /* _danimationDrawerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _danimationDrawerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BE7D8B9027D62D9C001AD04B /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		BE7D8B9227D62DBD001AD04B /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		BEE535B627D63942008A2837 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		BE7D8B6427D62D7C001AD04B /* 3danimationDrawer */ = {
 			isa = PBXGroup;
 			children = (
+				BE7D8B8F27D62D8D001AD04B /* View */,
 				BE7D8B6527D62D7C001AD04B /* _danimationDrawerApp.swift */,
 				BE7D8B6727D62D7C001AD04B /* ContentView.swift */,
 				BE7D8B6927D62D7E001AD04B /* Assets.xcassets */,
@@ -125,6 +132,16 @@
 				BE7D8B8227D62D7E001AD04B /* _danimationDrawerUITestsLaunchTests.swift */,
 			);
 			path = 3danimationDrawerUITests;
+			sourceTree = "<group>";
+		};
+		BE7D8B8F27D62D8D001AD04B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE7D8B9027D62D9C001AD04B /* Main.swift */,
+				BE7D8B9227D62DBD001AD04B /* SideMenu.swift */,
+				BEE535B627D63942008A2837 /* CustomTabView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE7D8B9127D62D9C001AD04B /* Main.swift in Sources */,
 				BE7D8B6827D62D7C001AD04B /* ContentView.swift in Sources */,
+				BEE535B727D63942008A2837 /* CustomTabView.swift in Sources */,
 				BE7D8B6627D62D7C001AD04B /* _danimationDrawerApp.swift in Sources */,
+				BE7D8B9327D62DBD001AD04B /* SideMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
